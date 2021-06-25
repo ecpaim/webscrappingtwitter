@@ -38,8 +38,6 @@ try:
                             print('============================')
                     except IndexError:
                         break
-        finally:
-            driver.quit()
 except KeyboardInterrupt:
     print('\nExiting...')
     exit(0)
